@@ -11,8 +11,9 @@ import converters
 
 # config
 input_formats = [".jpg", ".jpeg", ".tga", ".exr", ".tif", ".tiff", ".png", ".bmp", ".gif", ".ppm", ".hdr", ".cr2"]
-default_selected_formats = [".jpg", ".jpeg", ".exr"]
-default_output_format = "RSTEXBIN (Redshift, skip converted)"
+default_selected_formats = [".jpg", ".jpeg", ".exr", ".tif", ".tiff"]
+#default_output_format = "RSTEXBIN (Redshift, skip converted)"
+default_output_format = "RAT (Mantra)"
 ext_priority = ["jpg", "png", "cr2", "exr"]
 paths_separator = " /// "
 
